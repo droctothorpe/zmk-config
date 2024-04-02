@@ -57,37 +57,28 @@
 
         default_layer {
             bindings = <
-&kp TAB               &kp Q         &kp W            &kp E              &kp R             &kp T          &kp Y         &kp U            &kp I               &kp O            &kp P                 &kp MINUS
-&mt LEFT_GUI ESC      &bhm LCTRL A  &bhm LEFT_ALT S  &bhm LEFT_SHIFT D  &bhm LEFT_GUI F   &kp G          &kp H         &bhm LEFT_GUI J  &bhm RIGHT_SHIFT K  &bhm LEFT_ALT L  &bhm RCTRL SEMICOLON  &kp SQT
-&mt LEFT_SHIFT GRAVE  &kp Z         &kp X            &kp C              &kp V             &kp B          &kp N         &kp M            &kp COMMA           &kp DOT          &kp FSLH              &kp BACKSLASH
-                                                     &lt 4 LEFT_GUI     &lm 1 LEFT_SHIFT  &lt 1 SPACE    &lt 3 RETURN  &kp BACKSPACE    &kp DELETE
+&kp TAB             &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P          &kp BACKSPACE
+&mt LEFT_SHIFT ESC  &kp A  &kp S  &kp D         &kp F         &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON  &mt RIGHT_SHIFT SQT
+&mt LCTRL GRAVE     &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp BACKSLASH
+                                  &kp LEFT_ALT  &kp LEFT_GUI  &kt SPACE    &lt 2 RET  &mo 1  &mo 3
             >;
         };
 
         numbers-and-symbols {
             bindings = <
-&kp GRAVE     &kp N1                   &kp N2                       &kp N3                            &kp N4                           &kp N5             &kp NUMBER_6  &kp N7                &kp N8                 &kp N9            &kp N0             &kp MINUS
-&kp LEFT_GUI  &bhm LCTRL LEFT_BRACKET  &bhm LEFT_ALT RIGHT_BRACKET  &bhm LEFT_SHIFT LEFT_PARENTHESIS  &bhm LEFT_GUI RIGHT_PARENTHESIS  &kp LEFT_BRACE     &kp PLUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT
-&kp LSHFT     &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS        &kp LEFT_BRACKET                  &kp RIGHT_BRACKET                &kp RIGHT_BRACE    &kp EQUAL     &trans                &kp COMMA              &kp PERIOD        &kp SLASH          &kp BACKSLASH
-                                                                    &kp LGUI                          &trans                           &kp SPACE          &kp EQUAL     &trans                &trans
-            >;
-        };
-
-        symbols {
-            bindings = <
-&kp GRAVE  &kp EXCL   &kp AT    &kp HASH          &kp DLLR           &kp PRCNT    &kp CARET  &kp AMPS        &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BACKSLASH
-&trans     &kp LCTRL  &kp LALT  &kp LEFT_SHIFT    &kp LEFT_GUI       &kp EQUAL    &kp MINUS  &kp PLUS        &kp SLASH        &kp LBKT  &kp RBKT  &kp PIPE
-&kp LSHFT  &trans     &trans    &kt LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL    &kp EQUAL  &kp UNDERSCORE  &kp TILDE        &kp LBRC  &kp RBRC  &kp TILDE
-                                &kp LGUI          &trans             &kp SPACE    &kp RET    &trans          &kp RALT
+&kp GRAVE       &kp N1                   &kp N2                       &kp N3                            &kp N4                           &kp N5             &kp NUMBER_6  &kp N7                &kp N8                 &kp N9            &kp N0             &kp MINUS
+&kp LEFT_SHIFT  &bhm LCTRL LEFT_BRACKET  &bhm LEFT_ALT RIGHT_BRACKET  &bhm LEFT_SHIFT LEFT_PARENTHESIS  &bhm LEFT_GUI RIGHT_PARENTHESIS  &kp LEFT_BRACE     &kp PLUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDERSCORE
+&kp LCTRL       &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS        &kp LEFT_BRACKET                  &kp RIGHT_BRACKET                &kp RIGHT_BRACE    &kp EQUAL     &trans                &kp COMMA              &kp PERIOD        &kp SLASH          &kp BACKSLASH
+                                                                      &kp LEFT_ALT                      &kp LEFT_GUI                     &kp SPACE          &trans        &trans                &trans
             >;
         };
 
         movement {
             bindings = <
-&trans      &trans            &trans        &trans          &trans        &trans    &trans    &trans    &trans        &trans     &trans  &trans
-&caps_word  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_GUI  &trans    &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans      &trans            &trans        &trans          &trans        &trans    &trans    &trans    &trans        &trans     &trans  &trans
-                                            &trans          &trans        &trans    &trans    &trans    &trans
+&trans          &trans            &trans        &trans          &trans        &trans    &trans    &trans    &trans        &trans     &trans  &trans
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_GUI  &trans    &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&kp LCTRL       &trans            &trans        &trans          &trans        &trans    &trans    &trans    &trans        &trans     &trans  &trans
+                                                &kp LEFT_ALT    &kp LEFT_GUI  &trans    &trans    &trans    &trans
             >;
         };
 
