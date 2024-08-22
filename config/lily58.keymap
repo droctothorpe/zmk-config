@@ -87,7 +87,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                          &trans          &trans          &mkp MCLK       &trans           &trans             &trans
 &trans  &trans  &trans  &trans  &trans  &trans                          U_WH_L          U_WH_D          U_MS_U          U_WH_U           U_WH_R             &trans
-&trans  &trans  &trans  &trans  &trans  &trans                          &trans          U_MS_L          U_MS_L          U_MS_L           &mkp RCLK          &trans
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans          U_MS_L          U_MS_D          U_MS_R           &mkp RCLK          &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans       &tog 3     &trans          &trans          &trans          &trans           &trans             &trans
                         &trans  &trans  &trans  &mkp LCLK    &mkp LCLK  &mkp RCLK       &trans          &trans
             >;
