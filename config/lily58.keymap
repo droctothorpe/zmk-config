@@ -33,11 +33,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4            &kp N5                                                                  &kp N6  &kp N7         &kp N8      &kp N9   &kp N0    &kp MINUS
-&kp TAB    &kp Q   &kp W   &kp E   &kp R             &kp T                                                                   &kp Y   &kp U          &kp I       &kp O    &kp P     &kp BACKSPACE
-&kp ESC    &kp A   &kp S   &kp D   &hm LEFT_SHIFT F  &kp G                                                                   &kp H   &hm RSHIFT J   &kp K       &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z   &kp X   &kp C   &kp V             &kp B         &kp LA(LC(LG(LEFT_SHIFT)))    &kp LG(LC(LA(LEFT_SHIFT)))  &kp N   &kp M          &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
-                           &mo 2   &kp LEFT_ALT      &kp LEFT_GUI  &kp SPACE                     &kp ENTER                   &mo 1   &kp BACKSPACE  &kp DELETE
+&kp TAB           &kp Q         &kp W         &kp E         &kp R             &kp T                                                                   &kp Y         &kp U              &kp I       &kp O       &kp P          &kp BACKSPACE
+&kp ESCAPE        &kp A         &kp S         &kp D         &hm LEFT_SHIFT F  &kp G                                                                   &kp H         &hm RIGHT_SHIFT J  &kp K       &kp L       &kp SEMICOLON  &kp SQT
+&kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V             &kp B                                                                   &kp N         &kp M              &kp COMMA   &kp PERIOD  &kp SLASH      &kp SQT
+&kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5        &kp LA(LC(LG(LEFT_SHIFT)))    &kp LG(LC(LA(LEFT_SHIFT)))  &kp NUMBER_6  &kp N7             &kp N8      &kp N9      &kp N0         &kp MINUS
+                                              &mo 2         &kp LEFT_ALT      &kp LEFT_GUI  &kp SPACE                     &mo 1                       &kp RETURN    &kp BACKSPACE      &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -52,11 +52,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F12         &kp F1           &kp F2          &kp F3                &kp F4                 &kp F5                                &kp F6     &kp F7         &kp F8        &kp F9                &kp F10                &kp F11
-&kp GRAVE       &kp EXCLAMATION  &kp AT          &kp HASH              &kp DOLLAR             &kp PERCENT                           &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&kp LEFT_SHIFT  &trans           &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE                       &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT             &kp PIPE               &kp RIGHT_SHIFT
-&kp LCTRL       &trans           &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &trans       &trans  &kp EQUAL  &kp PLUS       &kp MINUS     &kp ASTERISK          &kp SLASH              &kp BACKSLASH
-                                                 &kp LCTRL             &kp LEFT_ALT           &kp LEFT_GUI     &kp SPACE    &trans  &trans     &trans         &trans
+&trans          &kp NUMBER_1          &kp NUMBER_2           &kp NUMBER_3      &kp NUMBER_4       &kp N5                             &kp NUMBER_6  &kp N7     &kp N8        &kp N9     &kp N0     &kp DELETE
+&kp GRAVE       &kp NUMBER_6          &kp N7                 &kp N8            &kp N9             &kp N0                             &kp LEFT      &kp DOWN   &kp UP_ARROW  &kp RIGHT  &kp PIPE   &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F12                            &kp ASTERISK  &kp EQUAL  &kp PLUS      &kp MINUS  &kp SLASH  &kp NON_US_BACKSLASH
+&kp LCTRL       &kp F1                &kp F2                 &kp F3            &kp F4             &kp F5        &trans       &trans  &kp F6        &kp F7     &kp F8        &kp F9     &kp F10    &kp F11
+                                                             &kp LCTRL         &kp LEFT_ALT       &kp LEFT_GUI  &kp SPACE    &trans  &trans        &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
