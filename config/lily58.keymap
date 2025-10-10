@@ -80,11 +80,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp TAB         &kp Q             &kp W         &kp E   &kp R              &kp T                                               &kp Y          &kp U               &kp I      &kp O          &kp P              &kp BACKSPACE
-&kp ESCAPE      &kp A             &kp S         &kp D   &hml LEFT_SHIFT F  &kp G                                               &kp H          &hmr RIGHT_SHIFT J  &kp K      &kp L          &kp SEMICOLON      &kp SQT
-&kp LEFT_SHIFT  &kp Z             &kp X         &kp C   &kp V              &kp B                                               &kp N          &kp M               &kp COMMA  &kp PERIOD     &kp SLASH          &kp RIGHT_SHIFT
-&tog 3          &kp LEFT_CONTROL  &kp LEFT_ALT  &trans  &kp GRAVE          &kp LEFT_GUI  &kp LS(LG(LBKT))    &kp LS(LG(RBKT))  &kp RIGHT_GUI  &trans              &trans     &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp DELETE
-                                                &trans  &trans             &mo 1         &kp SPACE           &kp RET           &mo 2          &trans              &trans
+&kp TAB         &kp Q             &kp W         &kp E            &kp R              &kp T                                               &kp Y          &kp U               &kp I             &kp O          &kp P              &kp BACKSPACE
+&kp ESCAPE      &kp A             &kp S         &hml LEFT_GUI D  &hml LEFT_SHIFT F  &kp G                                               &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_GUI K  &kp L          &kp SEMICOLON      &kp SQT
+&kp LEFT_SHIFT  &kp Z             &kp X         &kp C            &kp V              &kp B                                               &kp N          &kp M               &kp COMMA         &kp PERIOD     &kp SLASH          &kp RIGHT_SHIFT
+&tog 3          &kp LEFT_CONTROL  &kp LEFT_ALT  &trans           &kp GRAVE          &kp LEFT_GUI  &kp LS(LG(LBKT))    &kp LS(LG(RBKT))  &kp RIGHT_GUI  &trans              &trans            &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp DELETE
+                                                &trans           &trans             &mo 1         &kp SPACE           &kp RET           &mo 2          &trans              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -101,11 +101,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4            &kp N5                         &kp NUMBER_6     &kp N7                      &kp N8        &kp N9                &kp N0                 &kp MINUS
-&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN   &kp POUND     &hml LEFT_SHIFT DOLLAR  &kp PERCENT                    &kp CARET        &hmr RIGHT_SHIFT AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-&trans     &kp F1           &kp F2        &kp F3        &kp F4                  &kp F5                         &kp F6           &kp F7                      &kp F8        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH
-&trans     &trans           &trans        &trans        &trans                  &trans       &trans    &trans  &mt LEFT_GUI F9  &kp F10                     &kp F11       &kp F12               &trans                 &trans
-                                          &trans        &trans                  &trans       &trans    &trans  &trans           &trans                      &trans
+&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3         &kp NUMBER_4            &kp N5                         &kp NUMBER_6     &kp N7                      &kp N8                   &kp N9                &kp N0                 &kp MINUS
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN   &hml LEFT_GUI POUND  &hml LEFT_SHIFT DOLLAR  &kp PERCENT                    &kp CARET        &hmr RIGHT_SHIFT AMPERSAND  &hmr RIGHT_GUI ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
+&trans     &kp F1           &kp F2        &kp F3               &kp F4                  &kp F5                         &kp F6           &kp F7                      &kp F8                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH
+&trans     &trans           &trans        &trans               &trans                  &trans       &trans    &trans  &mt LEFT_GUI F9  &kp F10                     &kp F11                  &kp F12               &trans                 &trans
+                                          &trans               &trans                  &trans       &trans    &trans  &trans           &trans                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
