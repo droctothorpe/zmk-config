@@ -113,11 +113,11 @@
 
         arrows {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans     &trans    &trans    &trans     &trans  &kp DELETE
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans    &trans     &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans
+&trans  &trans     &trans          &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                       &trans     &trans    &trans    &trans     &trans  &kp DELETE
+&trans  &kp MINUS  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
+&trans  &kp PLUS   &kp BACKSLASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE                     &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans     &trans          &trans                &trans                 &trans     &trans    &trans  &trans     &trans    &trans    &trans     &trans  &trans
+                                   &trans                &trans                 &trans     &trans    &trans  &trans     &trans    &trans
             >;
         };
 
