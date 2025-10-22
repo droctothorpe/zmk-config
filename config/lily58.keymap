@@ -90,7 +90,7 @@
         };
 
         arw {
-            display-name = "arw"
+            display-name = "arw";
             bindings = <
 &trans  &trans     &trans          &kp LEFT_BRACE                  &kp RIGHT_BRACE                    &trans                       &kp PAGE_UP    &kp HOME               &kp UP_ARROW         &kp END    &trans  &kp DELETE
 &trans  &kp MINUS  &kp UNDERSCORE  &hmr LEFT_GUI LEFT_PARENTHESIS  &hmr LEFT_SHIFT RIGHT_PARENTHESIS  &kp EQUAL                    &kp PAGE_DOWN  &hmr RIGHT_SHIFT LEFT  &hmr RIGHT_GUI DOWN  &kp RIGHT  &trans  &trans
@@ -101,7 +101,7 @@
         };
 
         bt+ms {
-            display-name = "bt+ms"
+            display-name = "bt+ms";
             bindings = <
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                       &trans     &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &trans  &trans
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans                             &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
